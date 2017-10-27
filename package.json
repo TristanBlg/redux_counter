@@ -6,8 +6,7 @@
 	"scripts": {
 		"start": "NODE_ENV=dev webpack-dev-server --open",
 		"flow": "flow",
-		"dev": "NODE_ENV=dev webpack",
-		"prod": "webpack",
+		"build": "webpack",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {

@@ -1,18 +1,19 @@
 import { combineReducers } from 'redux'
+import types from '../actions/actionTypes.js'
 
 const count = (state = 0, action) => {
 	switch (action.type) {
-		case 'INCREMENT':
+		case types.increment:
 			return state + 1
-		case 'DECREMENT':
+		case types.decrement:
 			return state - 1
 		default:
 			return state
 	}
 }
 
-const pReducers = combineReducers({
+const reducers = combineReducers({
 	count
 })
 
-export default pReducers
+export default reducers
