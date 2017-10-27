@@ -1,15 +1,15 @@
 {
-	parser: "babel-eslint",
+	"parser": "babel-eslint",
 	"plugins": [
-        "react"
-    ],
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
-    "globals": {
-    	document: true,
-        module: true,
-        setTimeout: true
-    }
+		"react"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"globals": {
+		document: true,
+		module: true,
+		setTimeout: true
+	}
 }
