@@ -1,4 +1,4 @@
-# redux_counter
+# Redux Counter
 
 Entry file : `/dist/index.html`
 
